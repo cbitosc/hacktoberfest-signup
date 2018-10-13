@@ -74,7 +74,7 @@ p {
 .title__heading {
   text-align: center;
   font-weight: 500;
-  font-size: 56px;
+  font-size: 48px;
   font-family: 'K2D', sans-serif;
   text-transform: uppercase;
 }
@@ -84,20 +84,20 @@ p {
 }
 
 .list-grid ol {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    font-family: 'Mali', cursive;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  font-family: 'Mali', cursive;
 }
 
 .list-grid a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 .list-grid a:hover,
 .list-grid a:active {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 
